@@ -1,3 +1,4 @@
 using MineCopilot;
 
-await CorePrograss.ServerCoreUpdate(args);
+await CoreProcess.ServerCoreUpdate(args);
+await FileProcess.backup(args);

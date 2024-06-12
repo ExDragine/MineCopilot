@@ -3,7 +3,7 @@ using Newtonsoft.Json.Linq;
 
 namespace MineCopilot;
 
-class CorePrograss
+class CoreProcess
 {
     static readonly HttpClient client = new();
 
